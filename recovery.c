@@ -844,7 +844,7 @@ main(int argc, char **argv) {
 
     device_ui_init(&ui_parameters);
     ui_init();
-    ui_print("LEWA OS 4.2\n");
+    ui_print("菜单键  ↓\n搜索键  ↑\n房子键  确认\n返回键  呵呵\n");
     load_volume_table();
     process_volumes();
     LOGI("Processing arguments.\n");

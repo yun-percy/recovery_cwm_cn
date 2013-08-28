@@ -152,7 +152,7 @@ apply_from_adb() {
         ui_print("安装出错.\n");
     }
     if (install_status == INSTALL_SUCCESS) {
-        ui_print("安装安装完成！\n");
+        ui_print("安装完成！\n");
     }
     remove(ADB_SIDELOAD_FILENAME);
 
